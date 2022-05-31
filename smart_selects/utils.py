@@ -2,7 +2,7 @@ from django.apps import apps
 try:
     from django.utils.encoding import force_text
 except ImportError:
-    from django.utils.encoding import force_str as force_text
+    from django.utils.encoding import force_str
 
 get_model = apps.get_model
 
